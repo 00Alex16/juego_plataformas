@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="21" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="7" nextobjectid="400">
+ <tileset firstgid="1" source="Rock.tsx"/>
+ <tileset firstgid="37" source="Lava.tsx"/>
+ <tileset firstgid="51" source="Coin.tsx"/>
+ <tileset firstgid="61" source="Details.tsx"/>
+ <tileset firstgid="140" source="Background1.tsx"/>
+ <tileset firstgid="141" source="../level1/Rock.tsx"/>
+ <tileset firstgid="177" source="../level1/Details.tsx"/>
+ <tileset firstgid="256" source="../level1/Background1.tsx"/>
+ <tileset firstgid="257" source="../level1/Lava.tsx"/>
+ <objectgroup id="6" name="Background" opacity="0">
+  <object id="246" gid="175" x="0" y="512" width="64" height="64"/>
+  <object id="265" gid="175" x="0.25" y="339.5" width="64" height="64"/>
+  <object id="266" gid="256" x="0" y="640" width="1342" height="638"/>
+ </objectgroup>
+ <objectgroup id="3" name="Lava">
+  <object id="319" gid="259" x="0" y="640" width="64" height="64"/>
+  <object id="320" gid="259" x="128" y="640" width="64" height="64"/>
+  <object id="321" gid="259" x="256" y="640" width="64" height="64"/>
+  <object id="322" gid="259" x="384" y="640" width="64" height="64"/>
+  <object id="323" gid="259" x="512" y="640" width="64" height="64"/>
+  <object id="324" gid="259" x="640" y="640" width="64" height="64"/>
+  <object id="325" gid="259" x="768" y="640" width="64" height="64"/>
+  <object id="326" gid="259" x="896" y="640" width="64" height="64"/>
+  <object id="327" gid="259" x="1024" y="640" width="64" height="64"/>
+  <object id="328" gid="260" x="1088" y="640" width="64" height="64"/>
+  <object id="329" gid="260" x="960" y="640" width="64" height="64"/>
+  <object id="330" gid="260" x="832" y="640" width="64" height="64"/>
+  <object id="331" gid="260" x="704" y="640" width="64" height="64"/>
+  <object id="332" gid="260" x="576" y="640" width="64" height="64"/>
+  <object id="333" gid="260" x="448" y="640" width="64" height="64"/>
+  <object id="335" gid="260" x="320" y="640" width="64" height="64"/>
+  <object id="336" gid="260" x="192" y="640" width="64" height="64"/>
+  <object id="337" gid="260" x="64" y="640" width="64" height="64"/>
+  <object id="338" gid="259" x="1152" y="640" width="64" height="64"/>
+  <object id="340" name="Lava" x="1" y="594" width="1163" height="45"/>
+ </objectgroup>
+ <objectgroup id="2" name="Rock">
+  <object id="259" gid="170" x="64" y="320" width="64" height="64"/>
+  <object id="261" gid="171" x="128" y="320" width="64" height="64"/>
+  <object id="263" gid="170" x="0" y="320" width="64" height="64"/>
+  <object id="274" gid="168" x="576" y="192" width="64" height="64"/>
+  <object id="275" gid="168" x="704" y="192" width="64" height="64"/>
+  <object id="279" gid="173" x="960" y="512" width="64" height="64"/>
+  <object id="280" gid="174" x="1024" y="512" width="64" height="64"/>
+  <object id="282" gid="141" x="1152" y="448" width="64" height="64"/>
+  <object id="283" gid="142" x="1216" y="448" width="64" height="64"/>
+  <object id="284" gid="142" x="1280" y="448" width="64" height="64"/>
+  <object id="285" gid="144" x="1152" y="512" width="64" height="64"/>
+  <object id="286" gid="144" x="1152" y="576" width="64" height="64"/>
+  <object id="287" gid="144" x="1152" y="640" width="64" height="64"/>
+  <object id="288" gid="145" x="1216" y="512" width="64" height="64"/>
+  <object id="289" gid="145" x="1280" y="512" width="64" height="64"/>
+  <object id="290" gid="145" x="1280" y="576" width="64" height="64"/>
+  <object id="291" gid="145" x="1216" y="576" width="64" height="64"/>
+  <object id="292" gid="145" x="1216" y="640" width="64" height="64"/>
+  <object id="293" gid="145" x="1280" y="640" width="64" height="64"/>
+  <object id="301" name="Rock" x="0" y="272.167" width="177.75" height="34.8333"/>
+  <object id="303" name="Rock" x="578" y="144.5" width="60" height="34"/>
+  <object id="304" name="Rock" x="704.75" y="146" width="62.25" height="32"/>
+  <object id="305" name="Rock" x="1165.5" y="400" width="178.5" height="240"/>
+  <object id="306" name="Rock" x="963.5" y="462.5" width="120.75" height="34"/>
+  <object id="366" gid="29" x="64" y="576" width="64" height="64"/>
+  <object id="367" gid="31" x="128" y="576" width="64" height="64"/>
+  <object id="368" gid="29" x="256" y="576" width="64" height="64"/>
+  <object id="369" gid="30" x="320" y="576" width="64" height="64"/>
+  <object id="370" gid="31" x="384" y="576" width="64" height="64"/>
+  <object id="371" gid="32" x="512" y="576" width="64" height="64"/>
+  <object id="372" gid="36" x="512" y="640" width="64" height="64"/>
+  <object id="373" gid="32" x="640" y="512" width="64" height="64"/>
+  <object id="374" gid="36" x="640" y="576" width="64" height="64"/>
+  <object id="376" gid="29" x="256" y="448" width="64" height="64"/>
+  <object id="377" gid="31" x="320" y="448" width="64" height="64"/>
+  <object id="378" name="Rock" x="268" y="401.667" width="102" height="4.33333"/>
+  <object id="379" name="Rock" x="76" y="528" width="102" height="32"/>
+  <object id="380" name="Rock" x="271" y="528" width="162" height="32"/>
+  <object id="382" name="Rock" x="524" y="542" width="38" height="54"/>
+  <object id="383" name="Rock" x="654" y="477" width="35" height="62"/>
+  <object id="386" gid="28" x="192" y="384" width="64" height="64"/>
+  <object id="387" gid="28" x="320" y="320" width="64" height="64"/>
+  <object id="388" gid="32" x="448" y="256" width="64" height="64"/>
+  <object id="389" gid="36" x="448" y="320" width="64" height="64"/>
+  <object id="390" gid="29" x="448" y="448" width="64" height="64"/>
+  <object id="391" gid="31" x="512" y="448" width="64" height="64"/>
+  <object id="392" name="Rock" x="193" y="336.667" width="60" height="32.3333"/>
+  <object id="393" name="Rock" x="461" y="400" width="101" height="7.33333"/>
+  <object id="394" name="Rock" x="322" y="271" width="59" height="5.33333"/>
+  <object id="395" name="Rock" x="460" y="222" width="40" height="35"/>
+ </objectgroup>
+ <objectgroup id="4" name="Details">
+  <object id="342" name="Coin" gid="51" x="79" y="258" width="32" height="32"/>
+  <object id="343" name="Coin" gid="51" x="336" y="257" width="32" height="32"/>
+  <object id="344" name="Coin" gid="51" x="591" y="129" width="32" height="32"/>
+  <object id="345" name="Coin" gid="51" x="857" y="96" width="32" height="32"/>
+  <object id="346" name="Coin" gid="51" x="905" y="169" width="32" height="32"/>
+  <object id="347" name="Coin" gid="51" x="940" y="245" width="32" height="32"/>
+  <object id="348" name="Coin" gid="51" x="968" y="324" width="32" height="32"/>
+  <object id="349" name="Coin" gid="51" x="993" y="407" width="32" height="32"/>
+  <object id="352" gid="180" x="1278" y="414" width="64" height="64"/>
+  <object id="353" gid="183" x="1204" y="521" width="64" height="64"/>
+  <object id="354" gid="183" x="1161" y="632" width="64" height="64"/>
+  <object id="355" gid="182" x="1291" y="570" width="32" height="32"/>
+  <object id="357" name="Torch" gid="238" x="-1" y="265" width="64" height="64"/>
+  <object id="359" name="Torch" gid="238" x="318" y="522" width="64" height="64"/>
+  <object id="360" gid="212" x="1189" y="400" width="64" height="64"/>
+  <object id="362" gid="229" x="1028" y="105" width="128" height="128"/>
+  <object id="363" gid="234" x="726" y="651" width="128" height="128"/>
+  <object id="364" gid="218" x="1050" y="464" width="32" height="32"/>
+  <object id="384" name="Coin" gid="51" x="112" y="515" width="32" height="32"/>
+  <object id="385" name="Coin" gid="51" x="528" y="527" width="32" height="32"/>
+  <object id="396" gid="112" x="185" y="98" width="128" height="128"/>
+  <object id="397" gid="100" x="667" y="483" width="32" height="32"/>
+  <object id="398" gid="102" x="286" y="402" width="32" height="32"/>
+  <object id="399" name="Chest" x="1291" y="366" width="38" height="31"/>
+ </objectgroup>
+</map>
